@@ -1,5 +1,8 @@
 package com.dmai.springframework;
 
+import com.dmai.springframework.beans.factory.BeansException;
+import com.dmai.springframework.beans.factory.config.BeanDefinition;
+
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -11,16 +14,11 @@ import java.util.concurrent.ConcurrentHashMap;
  * @author linchengdong
  * @since 2022-10-28 17:20:16
  */
-public class BeanFactory {
-
-    private Map<String,BeanDefinition> beanDefinitionMap = new ConcurrentHashMap<>();
+public interface BeanFactory {
 
 
-    public Object getBean(String name) {
-        return beanDefinitionMap.get(name).getBean();
-    }
 
-    public void registerBeanDefinition(String name,BeanDefinition beanDefinition) {
-        beanDefinitionMap.put(name,beanDefinition);
-    }
+
+    Object getBean(String name) throws BeansException;
+
 }
