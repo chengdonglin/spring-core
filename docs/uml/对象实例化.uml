@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.dmai.springframework.beans.factory.support</OriginalElement>
+  <nodes>
+    <node x="697.6833333333333" y="126.5">com.dmai.springframework.BeanFactory</node>
+    <node x="462.7326923076923" y="473.0">com.dmai.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory</node>
+    <node x="679.7326923076923" y="690.0">com.dmai.springframework.beans.factory.support.DefaultListableBeanFactory</node>
+    <node x="1006.7326923076923" y="105.0">com.dmai.springframework.beans.factory.config.DefaultSingletonBeanRegistry</node>
+    <node x="229.68269230769226" y="138.0">com.dmai.springframework.beans.factory.support.InstantiationStrategy</node>
+    <node x="872.0" y="276.0">com.dmai.springframework.beans.factory.support.AbstractBeanFactory</node>
+    <node x="441.99999999999994" y="322.0">com.dmai.springframework.beans.factory.support.CglibSubclassingInstantiationStrategy</node>
+    <node x="871.7326923076923" y="529.0">com.dmai.springframework.beans.factory.support.BeanDefinitionRegistry</node>
+    <node x="0.0" y="322.0">com.dmai.springframework.beans.factory.support.SimpleInstantiationStrategy</node>
+    <node x="1035.2326923076923" y="0.0">com.dmai.springframework.beans.factory.config.SingletonBeanRegistry</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.dmai.springframework.beans.factory.support.DefaultListableBeanFactory" target="com.dmai.springframework.beans.factory.support.BeanDefinitionRegistry">
+      <point x="84.75" y="-60.5" />
+      <point x="933.9826923076923" y="665.0" />
+      <point x="1041.2326923076923" y="665.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.dmai.springframework.beans.factory.config.DefaultSingletonBeanRegistry" target="com.dmai.springframework.beans.factory.config.SingletonBeanRegistry">
+      <point x="0.0" y="-60.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.dmai.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" target="com.dmai.springframework.beans.factory.support.InstantiationStrategy">
+      <point x="-77.80000000000018" y="-83.5" />
+      <point x="579.4326923076922" y="443.0" />
+      <point x="431.49999999999994" y="443.0" />
+      <point x="431.49999999999994" y="251.0" />
+      <point x="485.93269230769226" y="251.0" />
+      <point x="51.25" y="27.5" />
+    </edge>
+    <edge source="com.dmai.springframework.beans.factory.support.DefaultListableBeanFactory" target="com.dmai.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory">
+      <point x="-84.75" y="-60.5" />
+      <point x="764.4826923076923" y="665.0" />
+      <point x="657.2326923076923" y="665.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="com.dmai.springframework.beans.factory.support.CglibSubclassingInstantiationStrategy" target="com.dmai.springframework.beans.factory.support.InstantiationStrategy">
+      <point x="0.0" y="-27.5" />
+      <point x="647.0" y="251.0" />
+      <point x="588.4326923076923" y="251.0" />
+      <point x="153.75" y="27.5" />
+    </edge>
+    <edge source="com.dmai.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" target="com.dmai.springframework.beans.factory.support.AbstractBeanFactory">
+      <point x="77.79999999999995" y="-83.5" />
+      <point x="735.0326923076923" y="443.0" />
+      <point x="1042.5" y="443.0" />
+      <point x="0.0" y="73.5" />
+    </edge>
+    <edge source="com.dmai.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" target="com.dmai.springframework.beans.factory.support.CglibSubclassingInstantiationStrategy">
+      <point x="0.0" y="-83.5" />
+      <point x="657.2326923076923" y="453.0" />
+      <point x="647.0" y="453.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.dmai.springframework.beans.factory.support.AbstractBeanFactory" target="com.dmai.springframework.BeanFactory">
+      <point x="-113.66666666666669" y="-73.5" />
+      <point x="928.8333333333333" y="251.0" />
+      <point x="814.6833333333333" y="251.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.dmai.springframework.beans.factory.support.AbstractBeanFactory" target="com.dmai.springframework.beans.factory.config.DefaultSingletonBeanRegistry">
+      <point x="113.66666666666669" y="-73.5" />
+      <point x="1156.1666666666665" y="251.0" />
+      <point x="1143.2326923076923" y="251.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="com.dmai.springframework.beans.factory.support.SimpleInstantiationStrategy" target="com.dmai.springframework.beans.factory.support.InstantiationStrategy">
+      <point x="0.0" y="-27.5" />
+      <point x="205.0" y="251.0" />
+      <point x="280.93269230769226" y="251.0" />
+      <point x="-153.75" y="27.5" />
+    </edge>
+    <edge source="com.dmai.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" target="com.dmai.springframework.beans.factory.config.DefaultSingletonBeanRegistry">
+      <point x="155.5999999999999" y="-83.5" />
+      <point x="812.8326923076922" y="453.0" />
+      <point x="1223.5" y="453.0" />
+      <point x="1223.5" y="251.0" />
+      <point x="1234.2326923076923" y="251.0" />
+      <point x="91.0" y="60.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="628.0" y="514.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
