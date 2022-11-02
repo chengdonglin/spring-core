@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.dmai.springframework.beans.factory.support</OriginalElement>
+  <nodes>
+    <node x="0.0" y="126.5">com.dmai.springframework.BeanFactory</node>
+    <node x="59.25" y="473.0">com.dmai.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory</node>
+    <node x="276.25" y="690.0">com.dmai.springframework.beans.factory.support.DefaultListableBeanFactory</node>
+    <node x="254.0" y="105.0">com.dmai.springframework.beans.factory.config.DefaultSingletonBeanRegistry</node>
+    <node x="215.0" y="835.0">com.dmai.springframework.beans.factory.support.InstantiationStrategy</node>
+    <node x="83.25" y="276.0">com.dmai.springframework.beans.factory.support.AbstractBeanFactory</node>
+    <node x="0.0" y="961.0">com.dmai.springframework.beans.factory.support.CglibSubclassingInstantiationStrategy</node>
+    <node x="468.25" y="529.0">com.dmai.springframework.beans.factory.support.BeanDefinitionRegistry</node>
+    <node x="430.0" y="961.0">com.dmai.springframework.beans.factory.support.SimpleInstantiationStrategy</node>
+    <node x="282.5" y="0.0">com.dmai.springframework.beans.factory.config.SingletonBeanRegistry</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.dmai.springframework.beans.factory.support.DefaultListableBeanFactory" target="com.dmai.springframework.beans.factory.support.BeanDefinitionRegistry">
+      <point x="84.75" y="-60.5" />
+      <point x="530.5" y="665.0" />
+      <point x="637.75" y="665.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.dmai.springframework.beans.factory.config.DefaultSingletonBeanRegistry" target="com.dmai.springframework.beans.factory.config.SingletonBeanRegistry">
+      <point x="0.0" y="-60.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.dmai.springframework.beans.factory.support.DefaultListableBeanFactory" target="com.dmai.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory">
+      <point x="-84.75" y="-60.5" />
+      <point x="361.0" y="665.0" />
+      <point x="253.75" y="665.0" />
+      <point x="0.0" y="83.5" />
+    </edge>
+    <edge source="com.dmai.springframework.beans.factory.support.CglibSubclassingInstantiationStrategy" target="com.dmai.springframework.beans.factory.support.InstantiationStrategy">
+      <point x="0.0" y="-27.5" />
+      <point x="205.0" y="936.0" />
+      <point x="317.5" y="936.0" />
+      <point x="-102.5" y="27.5" />
+    </edge>
+    <edge source="com.dmai.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory" target="com.dmai.springframework.beans.factory.support.AbstractBeanFactory">
+      <point x="0.0" y="-83.5" />
+      <point x="0.0" y="73.5" />
+    </edge>
+    <edge source="com.dmai.springframework.beans.factory.support.AbstractBeanFactory" target="com.dmai.springframework.BeanFactory">
+      <point x="-85.25" y="-73.5" />
+      <point x="168.5" y="251.0" />
+      <point x="117.0" y="251.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.dmai.springframework.beans.factory.support.AbstractBeanFactory" target="com.dmai.springframework.beans.factory.config.DefaultSingletonBeanRegistry">
+      <point x="85.25" y="-73.5" />
+      <point x="339.0" y="251.0" />
+      <point x="390.5" y="251.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="com.dmai.springframework.beans.factory.support.SimpleInstantiationStrategy" target="com.dmai.springframework.beans.factory.support.InstantiationStrategy">
+      <point x="0.0" y="-27.5" />
+      <point x="635.0" y="936.0" />
+      <point x="522.5" y="936.0" />
+      <point x="102.5" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="583.5" y="574.5" />
+  <SelectedNodes>
+    <node>com.dmai.springframework.beans.factory.support.InstantiationStrategy</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
