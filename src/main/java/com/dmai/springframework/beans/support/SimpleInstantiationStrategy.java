@@ -1,7 +1,7 @@
-package com.dmai.springframework.beans.factory.support;
+package com.dmai.springframework.beans.support;
 
-import com.dmai.springframework.beans.factory.BeansException;
-import com.dmai.springframework.beans.factory.config.BeanDefinition;
+import com.dmai.springframework.beans.BeansException;
+import com.dmai.springframework.beans.config.BeanDefinition;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;

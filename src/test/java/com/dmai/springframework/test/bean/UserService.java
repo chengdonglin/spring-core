@@ -10,13 +10,12 @@ package com.dmai.springframework.test.bean;
  */
 public class UserService {
 
-    private String name;
+    private String uId;
 
-    public UserService(String name) {
-        this.name = name;
-    }
+    private UserDao userDao;
+
 
     public void queryUserInfo() {
-        System.out.println("查询用户信息" + name);
+        System.out.println("查询用户信息" + userDao.queryUserName(uId));
     }
 }

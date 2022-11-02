@@ -1,4 +1,4 @@
-package com.dmai.springframework.beans.factory;
+package com.dmai.springframework.beans;
 
 /**
  * <p>

@@ -1,10 +1,6 @@
-package com.dmai.springframework;
+package com.dmai.springframework.beans.factory;
 
-import com.dmai.springframework.beans.factory.BeansException;
-import com.dmai.springframework.beans.factory.config.BeanDefinition;
-
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
+import com.dmai.springframework.beans.BeansException;
 
 /**
  * <p>

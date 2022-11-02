@@ -1,4 +1,4 @@
-package com.dmai.springframework.beans.factory.config;
+package com.dmai.springframework.beans.config;
 
 import java.util.HashMap;
 import java.util.Map;
